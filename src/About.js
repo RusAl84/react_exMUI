@@ -10,15 +10,18 @@ export default class About extends Component {
 
     render() {
         return(
-            <Box>
+            <div>
+                <Box>
                 <TextField id="outlined-basic" label="Outlined" variant="outlined" />
                 <TextField id="filled-basic" label="Filled" variant="filled" />
                 <TextField id="standard-basic" label="Standard" variant="standard" />
+                </Box>
+
                 <Button variant="contained">Contained</Button>
                 <Box sx={{ display: 'flex' }}>
                     <CircularProgress />
                 </Box>
-            </Box>
+            </div>
         )
     }
 }
